@@ -1,228 +1,106 @@
 {
-
-    "label" : "Fake News",
-
-        "Description" : "What is Fake News?",
-
-            "List" : [
-
-                {
-
-                    "label": "Bad News",
-
-                    "isbns": [
-
-                        "9780060797461"
-
-                    ]
-
-                },
-
-                {
-
-                    "label": "Tell Me No Lies",
-
-                    "isbns": [
-
-                        "9781560257868"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The Smear",
-
-                    "isbns": [
-
-                        "9780062468161",
-
-                        "9781476716015"
-
-                    ]
-
-                },
-
-                {
-
-                    "label": "Fair and Balanced, My Ass!",
-
-                    "isbns": [
-
-                        "9781568583471"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "Fake News, Propaganda, and Plain Old Lies",
-
-                    "isbns": [
-
-                        "9781538108895"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "Merchants of Truth",
-
-                    "isbns": [
-
-                        "9781501123207"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "On the Condition of Anonymity",
-
-                    "isbns": [
-
-                        "9780252035999"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "Shocking True Story",
-
-                    "isbns": [
-
-                        "9780375421396"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "Breakthrough",
-
-                    "isbns": [
-
-                        "9781476706177"
-
-                    ]
-
-                },
-
-
-
-                {
-
-                    "label": "The Deal From Hell",
-
-                    "isbns": [
-
-                        "9781586487911"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The Elements of Journalism",
-
-                    "isbns": [
-
-                        "9780307346704",
-
-                        "9780688019198"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The Invention of News",
-
-                    "isbns": [
-
-                        "9780300179088",
-
-                        "9780812992854"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The Manchester Union Leader in New Hampshire Elections",
-
-                    "isbns": [
-
-                        "9780874511062"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The News About the News",
-
-                    "isbns": [
-
-                        "9780375408748"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The News and Its Future",
-
-                    "isbns": [
-
-                        "9780824210977",
-
-                        "9781400051991"
-
-                    ]
-
-
-                },
-
-                {
-
-                    "label": "The Pulitzer Prize",
-
-                    "isbns": [
-
-                        "9781559720700"
-
-                    ]
-
-
-                }
-
-
-
-            ]
-
+  "description": "What is Fake News",
+  "label": "Fake News",
+  "list": [
+    {
+      "label": "Bad News",
+      "isbns": [
+        "9780060797461"
+      ]
+    },
+    {
+      "label": "Tell Me No Lies",
+      "isbns": [
+        "9781560257868"
+      ]
+    },
+    {
+      "label": "The Smear",
+      "isbns": [
+        "9780062468161",
+        "9781476716015"
+      ]
+    },
+    {
+      "label": "Fair and Balanced, My Ass",
+      "isbns": [
+        "9781568583471"
+      ]
+    },
+    {
+      "label": "Fake News, Propaganda, and Plain Old Lies",
+      "isbns": [
+        "9781538108895"
+      ]
+    },
+    {
+      "label": "Merchants of Truth",
+      "isbns": [
+        "9781501123207"
+      ]
+    },
+    {
+      "label": "On the Condition of Anonymity",
+      "isbns": [
+        "9780252035999"
+      ]
+    },
+    {
+      "label": "Shocking True Story",
+      "isbns": [
+        "9780375421396"
+      ]
+    },
+    {
+      "label": "Breakthrough",
+      "isbns": [
+        "9781476706177"
+      ]
+    },
+    {
+      "label": "The Deal From Hell",
+      "isbns": [
+        "9781586487911"
+      ]
+    },
+    {
+      "label": "The Elements of Journalism",
+      "isbns": [
+        "9780307346704",
+        "9780688019198"
+      ]
+    },
+    {
+      "label": "The Invention of News",
+      "isbns": [
+        "9780300179088",
+        "9780812992854"
+      ]
+    },
+    {
+      "label": "The Manchester Union Leader in New Hampshire Elections",
+      "isbns": [
+        "9780874511062"
+      ]
+    },
+    {
+      "label": "The News About the News",
+      "isbns": [
+        "9780375408748"
+      ]
+    },
+    {
+      "label": "The News and Its Future",
+      "isbns": [
+        "9780824210977",
+        "9781400051991"
+      ]
+    },
+    {
+      "label": "The Pulitzer Prize",
+      "isbns": [
+        "9781559720700"
+      ]
+    }
+  ]
 }
