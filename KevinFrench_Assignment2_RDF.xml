@@ -1,0 +1,96 @@
+<!-- Example 2:  Carl Sagan's The Demon Haunted World from OCLC WorldCat
+If you choose this example for this quiz, please focus only on the section in BOLD-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#" xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#" xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/">
+    <rdf:Description rdf:about="http://www.worldcat.org/oclc/827628298">
+        <schema:productID>827628298</schema:productID>
+        <library:oclcnum>827628298</library:oclcnum>
+        <schema:workExample rdf:resource="http://worldcat.org/isbn/9780345409461"/>
+        <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+        <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85118587"/>
+        <schema:datePublished>2013</schema:datePublished>
+        <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/137854019"/>
+        <schema:name xml:lang="en">The demon-haunted world : science as a candle in the
+            dark</schema:name>
+        <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85118577"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/1108387"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/1108313"/>
+        <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+        <schema:inLanguage>en</schema:inLanguage>
+        <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+        <schema:workExample rdf:resource="http://worldcat.org/isbn/9781439505281"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/1108517"/>
+        <rdf:type rdf:resource="http://schema.org/Book"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/999859"/>
+        <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/827628298"/>
+        <schema:creator rdf:resource="http://viaf.org/viaf/36997809"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="http://viaf.org/viaf/36997809">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:familyName>Sagan</schema:familyName>
+        <schema:givenName>Carl</schema:givenName>
+        <schema:name>Carl Sagan</schema:name>
+        <schema:birthDate>1934</schema:birthDate>
+        <schema:deathDate>1996</schema:deathDate>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://worldcat.org/isbn/9781439505281">
+        <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+        <schema:isbn>9781439505281</schema:isbn>
+        <schema:isbn>1439505284</schema:isbn>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://worldcat.org/isbn/9780345409461">
+        <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+        <schema:isbn>9780345409461</schema:isbn>
+        <schema:isbn>0345409469</schema:isbn>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/827628298">
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+        <schema:about rdf:resource="http://www.worldcat.org/oclc/827628298"/>
+        <schema:dateModified>2017-09-03</schema:dateModified>
+        <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85118587">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Science--Study and teaching</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85118577">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Science--Methodology</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/1108313">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Science--Methodology</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+        <rdf:type rdf:resource="http://schema.org/Place"/>
+        <dcterms:identifier>nyu</dcterms:identifier>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/1108517">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Science and civilization</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/1108387">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Science--Study and teaching</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/999859">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Literacy</schema:name>
+    </rdf:Description>
+</rdf:RDF>
+
+1. Cite the Subject, Predicates, and Objects that are described in the example above
+
+2. What are all the namespaces defined in this RDF document?
+
+3. What URIs are defined in this RDF document?
+
+4. Summarize the role of URIs and Namespaces in RDF in your own words.

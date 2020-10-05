@@ -1,0 +1,61 @@
+#Kevin French Week 3 SPARQL 1
+#I wanted to find the book "Right Ho, Jeeves" and got help from a few posts on Stack Overflow
+PREFIX dbpedia-ont: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?bookUri  
+WHERE 
+{ 
+?bookUri  rdf:type dbpedia-ont:Book;
+rdfs:label ?label .
+FILTER CONTAINS(?label,"Right Ho") 
+ . } 
+ 
+ SELECT ?book
+WHERE {
+  ?book a dbpedia-owl:Book .
+  ?book dbpprop:author ?author .
+  ?author dbpprop:name ?name
+  FILTER regex(?name, "Agatha Christie", "i")
+}
+
+https://viaf.org/viaf/78192675
+
+#Kevin French Week 3 SPARQL 1
+#I wanted to find the book "Right Ho, Jeeves" and got help from a few posts on Stack Overflow
+PREFIX dbpedia-ont: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?bookUri  
+WHERE 
+{ 
+?bookUri  rdf:type dbpedia-ont:Book;
+rdfs:label ?label .
+FILTER CONTAINS(?label,"Three-Body") 
+ . } 
+ 
+ rdfs:label ?label .
+FILTER CONTAINS(?label,"Liu Cixin")
+
+SELECT *
+WHERE
+{
+?subject ?predicate ?object .
+FILTER (regex(?object, "Cixin","i"))
+}
+
+
+down vote
+accepted
+
+SELECT ?book
+WHERE {
+  ?book a dbpedia-owl:Book .
+  ?book dbpprop:author ?author .
+  ?author dbpprop:name ?name
+  FILTER regex(?name, "Agatha Christie", "i")
+}
+
+SELECT ?book
+WHERE {
+  ?book a dbpedia:Book .
+  ?book dbpedia2:author ?author .
+  ?author dbpedia2:name ?name
+  FILTER CONTAINS(?name, "Cixin", "i")
+}

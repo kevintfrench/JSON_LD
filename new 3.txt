@@ -1,0 +1,57 @@
+PREFIX ont: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?s  ?author 
+WHERE {
+	?s rdf:type ont:Book;
+    ont:author ?author .
+	FILTER regex(?author, "Douglas_Adams", "i")
+}
+
+
+
+PREFIX ont: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?abstract ?book  
+WHERE {
+	?abstract dbpedia-ont:abstract ?abstract .
+	?book rdf:type ont:Book;
+    ont:series ?series .
+	FILTER regex(?series, "The_Hitchhiker's_Guide_to_the_Galaxy", "i")
+}
+
+
+
+
+
+dbpedia:ontology/series [http]	:The_Hitchhiker's_Guide_to_the_Galaxy [http]
+
+dbpedia2:releaseDate [http]
+
+
+PREFIX ont: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT  ?series ?book  
+WHERE {
+	?book rdf:type ont:Book;
+	ont:series ?series .
+	FILTER regex(?series, "The_Hitchhiker's_Guide_to_the_Galaxy", "i")
+}
+
+SELECT DISTINCT  ?series ?book  ?abstract
+WHERE {
+	?series ont:series "The_Hitchhiker's_Guide_to_the_Galaxy";
+	?abstract ont:abstract ?abstract .
+	?book rdf:type ont:Book;
+	ont:series ?series .
+	FILTER regex(?series, "The_Hitchhiker's_Guide_to_the_Galaxy", "i")
+}
+
+PREFIX ont: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT  ?series ?book ?id 
+WHERE {
+	?book rdf:type ont:Book;
+	ont:series ?series ;
+	ont:wikiPageID;
+	FILTER regex(?series, "The_Hitchhiker's_Guide_to_the_Galaxy", "i")
+}

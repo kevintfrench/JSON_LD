@@ -1,0 +1,19 @@
+{
+  "description": "What is Fake News",
+  "label": "Fake News",
+  "list": [
+    {
+      "label": "Bad News",
+      "isbns": [
+        "9780060797461"
+      ]
+    },
+   
+    {
+      "label": "The Pulitzer Prize",
+      "isbns": [
+        "9781559720700"
+      ]
+    }
+  ]
+}

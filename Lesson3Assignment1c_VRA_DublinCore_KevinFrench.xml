@@ -1,0 +1,12 @@
+<?xml version=”1.0”?> 
+<rdf:RDF xmlns:rdf=”http://www.w3.org/1999/02/22-rdf-syntax-ns#”      
+       xmlns:dc=”http://purl.org/dc/elements/1.1/” 
+       xmnls:dcterms=”http://dublincore.org/schemas/xmls/qdc/dcterms.xsd
+	   xmnls:vra=http://www.loc.gov/standards/vracore/vra.xsd”>   
+         <rdf:Description rdf:about = “http://www.worksofmunch.com/TheScream”> 
+               <dc:creator>Munch, Edvard, 1863-1944</dc:creator> 
+               <dc:title>The Scream</dc:title>
+			   <vra:culturalContext>Norwegian</vra:culturalContext>
+    </rdf:Description>   
+</rdf:RDF>
+--I'm thinking there should be a lot more here but based on the vra link, it appears it's a simple element too so I'm not sure.

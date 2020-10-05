@@ -1,0 +1,34 @@
+<xs:complex <xs:group name="orgRecordgroup">
+	<xs:sequence>
+		<xs:element ref="recordId" />
+		<xs:element ref="orgName" />
+		<xs:element ref="variantName"  minOccurs="0" maxOccurs="unbounded" />
+		<xs:element ref="contractId" />
+		<xs:element ref="location" />
+		<xs:element ref="contact" maxOccurs=”unbounded”/>
+		<xs:element ref="organizationNote" minOccurs="0" maxOccurs=”unbounded” />
+		<xs:element ref="expertise"  maxOccurs="unbounded" />
+		<xs:element ref=”expertiseNote” minOccurs=”0” maxOccurs=”unbounded” />
+	</xs:sequence>
+</xs:group>  
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  targetNamespace="http://jarndyce.com/ipdir/"  xmlns="http://jarndyce.com/ipdir/"  elementFormDefault="unqualified">
+          <xs:element name=”orgRecord”/>
+		  <xs:element name="recordId"/>
+		  <xs:element name="orgName" type="xs:string" />
+		  <xs:element name="variantName" type="xs:string" />
+		  
+<xs:element name="orgType">
+        <xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Sole proprietor" />
+                <xs:enumeration value="Single office organization" />
+                <xs:enumeration value="Multi office organization" />
+				<xs:enumeration value="Multinational organization" />
+				<xs:enumeration value="Other organization" />
+			</xs:restriction>
+		</xs:simpleType>
+</x:element>		  
+
+
+Contact is in a sequence so the elements will appear in the order they are placed.  The contact name must appear once and only once using alphanumeric charachters.  The contact role describes the position the contact has in the organization and does not have to be present but, if it is, it must contain alphanumeric charachters.  The contact email must occur once and only once using alphanumeric characters. 
